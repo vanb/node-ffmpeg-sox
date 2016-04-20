@@ -6,3 +6,4 @@ RUN apt-get update -y && \
 RUN curl -sL https://deb.nodesource.com/setup_0.10 | bash - && \
 	apt-get install -y nodejs && \
 	node --version && npm --version
+	
